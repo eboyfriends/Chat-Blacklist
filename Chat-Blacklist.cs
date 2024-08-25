@@ -7,7 +7,7 @@ namespace Chat_Blacklist {
 
     public class Main : BasePlugin, IPluginConfig<MainConfig>
     {
-        public override string ModuleName => "eboyfriends";
+        public override string ModuleName => "Chat-Blacklist";
         public override string ModuleVersion => "6.6.6";
         public override string ModuleAuthor => "eboyfriends";
         public required MainConfig Config { get; set; }
